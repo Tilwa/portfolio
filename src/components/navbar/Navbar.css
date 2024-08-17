@@ -1,0 +1,52 @@
+.navbar {
+  background-color: #0f1630;
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  align-items: center;
+}
+.name-logo {
+  font-size: 2.5em;
+  flex: 1;
+  color: #4fb7dc;
+  /* background-color: aqua; */
+}
+
+#menu-list,
+#menu-item {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.menu-list {
+  display: flex;
+  /* background-color: bisque; */
+  flex: 1.15;
+  justify-content: space-between;
+  font-size: larger;
+  color: white;
+}
+.contact-div {
+  flex: 0.5;
+  display: flex;
+  justify-content: flex-end;
+}
+#contact-btn {
+  padding: 10px 20px;
+  font-size: medium;
+  font-weight: bold;
+  cursor: pointer;
+  border-image: linear-gradient(45deg, #4a31c0, #4fb7dc) 1;
+  color: white;
+  background: linear-gradient(45deg, #4fb7dc, #4a31c0);
+  border-radius: 5px;
+}
+
+#contact-btn:hover {
+  border-image: linear-gradient(85deg, #4fb7dc, #4a31c0) 1;
+  color: white; /* Change text color on hover */
+  background: linear-gradient(45deg, #4a31c0, #4fb7dc);
+  padding: 12px 22px;
+  transition: border-image 0.3s ease, color 0.3s ease; /* Smooth transition effect */
+}

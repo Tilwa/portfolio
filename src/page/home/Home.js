@@ -9,7 +9,8 @@ import Experience from "../../components/experience/Experience";
 import Contact from "../../components/contact/Contact";
 const Home = () => {
   return (
-    <div>
+    <div className="home">
+      <Navbar />
       <Hero />
       <About />
       <Projects />
