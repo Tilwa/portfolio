@@ -7,6 +7,7 @@ import Projects from "../../components/allProjects/Projects";
 import Services from "../../components/allServices/Services";
 import Experience from "../../components/experience/Experience";
 import Contact from "../../components/contact/Contact";
+import Languages from "../../components/languages/Languages";
 const Home = () => {
   return (
     <div className="home">
@@ -15,6 +16,7 @@ const Home = () => {
       <About />
       <Projects />
       <Services />
+      <Languages />
       <Experience />
       <Contact />
     </div>

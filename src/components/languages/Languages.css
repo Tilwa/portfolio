@@ -1,0 +1,67 @@
+.languages-main-container {
+  background-color: #0f1630;
+  margin-top: 100px;
+}
+
+#languages-heading {
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+  margin-bottom: 20px;
+  color: white;
+}
+.languages-top-main {
+  display: flex;
+
+  justify-content: space-evenly;
+}
+
+.box1 {
+  height: 125px;
+  width: 125px;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-icon {
+  font-size: 5rem;
+}
+.box-title {
+  margin-top: 5px;
+  font-weight: 500;
+  color: white;
+  opacity: 0.9;
+}
+
+.box2 {
+  height: 125px;
+  width: 125px;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box3 {
+  height: 125px;
+  width: 125px;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box4 {
+  height: 125px;
+  width: 125px;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

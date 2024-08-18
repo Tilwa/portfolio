@@ -1,5 +1,53 @@
 .hero {
   background-color: #0f1630;
-  height: 100vh;
+  height: 46vh;
   color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-top: 100px;
+}
+
+#small-title {
+  color: #868a96;
+  font-size: x-large;
+}
+
+#main-title-div {
+  display: flex;
+}
+.main-title {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 3.5em;
+  line-height: 1.1;
+}
+#dot {
+  align-self: flex-end;
+  font-size: xx-large;
+  font-size: 7em;
+  color: #4fb7dc;
+  /* background-color: antiquewhite; */
+  padding-top: 80px;
+}
+#projects-btn {
+  border: 1px solid blue;
+  padding: 12px 16px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  background: linear-gradient(to right, #4e9fd7, #4a2ec0);
+  width: max-content;
+  border: 2px solid #4e9fd7;
+}
+
+#projects-btn:hover {
+  /* border-image: linear-gradient(85deg, #4fb7dc, #4a31c0) 1; */
+
+  border-radius: 5px;
+  color: #4e9fd7;
+
+  /* padding: 14px 24px; */
+  background: white;
+  transition: border-image 0.3s ease, color 0.3s ease; /* Smooth transition effect */
 }

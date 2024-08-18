@@ -1,0 +1,79 @@
+.about-container {
+  margin-top: 100px;
+  height: 65vh;
+  display: flex;
+  align-items: center;
+  background-color: #0f1630;
+  /* background-color: aquamarine; */
+}
+
+.about-left {
+  width: 30%;
+}
+.about-right {
+  width: 70%;
+}
+
+.img-container {
+  position: relative;
+  width: 300px; /* Adjust container width as needed */
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  position: relative;
+  z-index: 1;
+  border-radius: 2%;
+}
+
+.square-border {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  width: 300px; /* Adjust square width as needed */
+  height: 300px; /* Adjust square height as needed */
+  border: 10px solid #4fb7dc; /* Border color and thickness */
+  border-radius: 2%;
+  z-index: 0;
+}
+.about-right-top {
+}
+
+.about-right-bottom {
+  margin-top: 30px;
+}
+.hire-me-contact {
+  border: 1px solid blue;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  background: linear-gradient(to right, #4e9fd7, #4a2ec0);
+}
+
+.resume-contact {
+  margin-left: 20px;
+
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  color: #4e9fd7;
+  font-size: 16px;
+  border: 2px solid #4e9fd7;
+}
+#about-me-title {
+  font-size: xx-large;
+  color: white;
+}
+#about-me-para {
+  font-size: large;
+  font-stretch: extra-expanded;
+  line-height: 1.5;
+  text-align: justify;
+  width: 80%;
+  color: white;
+  opacity: 0.9;
+}
