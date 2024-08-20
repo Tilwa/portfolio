@@ -7,7 +7,7 @@ const Hero = () => {
       <h6 id="small-title">I'm a</h6>
       <div id="main-title-div">
         <h2 className="main-title">
-          FRONT-END <br />
+          FULLSTACK <br />
           SOFTWARE <br />
           DEVELOPER
         </h2>

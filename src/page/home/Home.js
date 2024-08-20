@@ -7,16 +7,18 @@ import Projects from "../../components/allProjects/Projects";
 import Services from "../../components/allServices/Services";
 import Experience from "../../components/experience/Experience";
 import Contact from "../../components/contact/Contact";
-import Languages from "../../components/languages/Languages";
+import Skills from "../../components/skills/Skills";
 const Home = () => {
   return (
     <div className="home">
       <Navbar />
       <Hero />
       <About />
+
       <Projects />
+      <Skills />
+
       <Services />
-      <Languages />
       <Experience />
       <Contact />
     </div>

@@ -1,11 +1,11 @@
 .hero {
   background-color: #0f1630;
-  height: 46vh;
+  height: 70vh;
   color: white;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-  margin-top: 100px;
+  justify-content: center;
+  margin-top: 20px;
 }
 
 #small-title {
