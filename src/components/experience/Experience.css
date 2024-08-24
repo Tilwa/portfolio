@@ -1,6 +1,8 @@
 .experience {
   margin-top: 50px;
   background-color: #0f1630;
+  margin: auto 120px;
+  padding-bottom: 100px;
 }
 
 #experience-heading {
@@ -9,6 +11,7 @@
   font-size: xx-large;
   margin-bottom: 30px;
   color: white;
+  margin-top: 100px;
 }
 .experience-main {
   display: flex;

@@ -4,6 +4,7 @@
   justify-content: space-between;
   height: 100px;
   align-items: center;
+  margin: auto 120px;
 }
 .name-logo {
   font-size: 2.2em;
