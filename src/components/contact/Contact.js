@@ -11,7 +11,7 @@ const Contact = () => {
         <div className="contact-middle">
           <div className="contact-middle-left">
             <div className="contact-details-top">
-              <h5 className="contact-heading">Drop Me a Message</h5>
+              <h5 className="contact-heading-title">Drop Me a Message</h5>
               <p className="contact-desc">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy

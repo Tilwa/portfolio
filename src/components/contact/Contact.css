@@ -1,11 +1,11 @@
 .contact {
   height: 75vh;
-  border-top-left-radius: 100px;
-  border-top-right-radius: 100px;
+  border-top-left-radius: 120px;
+  border-top-right-radius: 120px;
   margin-top: 50px;
   background: linear-gradient(135deg, #4a2ec0, #4e9fd7);
   margin: auto 120px;
-  padding: 5px 25px 0px 25px;
+  padding: 30px 120px 0px 120px;
 }
 
 #contact-main {
@@ -23,7 +23,12 @@
   justify-content: center;
   font-size: xx-large;
   color: white;
-  /* margin-bottom: 50px; */
+}
+.contact-heading-title {
+  font-size: 1.5em;
+  flex: 1;
+  color: #4fb7dc;
+  margin-bottom: 5px;
 }
 
 .contact-middle {
@@ -57,7 +62,6 @@
 }
 .contact-details-bottom-1 {
   flex: 1;
-
   display: flex;
 }
 #icon-left {
