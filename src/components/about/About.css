@@ -78,3 +78,197 @@
   color: white;
   opacity: 0.9;
 }
+
+/* ////////////////////////////////////////////////////Styles for mobile devices (less than 768px)///////////////////////////////////////////////////////// */
+/* Styles for mobile devices (less than 768px) */
+@media (max-width: 768px) {
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    /* background-color: yellow; */
+    margin: 0;
+    padding-top: 50px;
+  }
+  .about-left {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    margin-right: 140px;
+    margin-bottom: 50px;
+  }
+  .about-right {
+    flex: 1;
+    /* background-color: bisque; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .img-container {
+    position: relative;
+  }
+
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 1;
+    border-radius: 2%;
+    height: 250px;
+    width: 250px;
+  }
+
+  .square-border {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 250px; /* Adjust square width as needed */
+    height: 250px; /* Adjust square height as needed */
+    border: 10px solid #4fb7dc; /* Border color and thickness */
+    border-radius: 2%;
+    z-index: 0;
+  }
+  .about-right-top {
+  }
+
+  .about-right-bottom {
+    margin-top: 20px;
+  }
+  .hire-me-contact {
+    border: 1px solid blue;
+    padding: 14px 18px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    background: linear-gradient(to right, #4e9fd7, #4a2ec0);
+  }
+
+  .resume-contact {
+    margin-left: 20px;
+
+    padding: 14px 18px;
+    border: none;
+    border-radius: 5px;
+    color: #4e9fd7;
+    font-size: 16px;
+    border: 2px solid #4e9fd7;
+  }
+  #about-me-title {
+    font-size: xx-large;
+    color: white;
+  }
+  #about-me-para {
+    font-size: large;
+    font-stretch: extra-expanded;
+    line-height: 1.5;
+    text-align: justify;
+    width: 100%;
+    color: white;
+    opacity: 0.9;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+/* ////////////////////////////////////////////////////Styles for tablets (768px to 1024px)///////////////////////////////////////////////////////// */
+/* Styles for tablets (768px to 1024px) */
+@media (max-width: 1024px) and (min-width: 768px) {
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    /* background-color: yellow; */
+    margin: 0;
+    padding-top: 50px;
+  }
+  .about-left {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    margin-right: 140px;
+    margin-bottom: 50px;
+  }
+  .about-right {
+    flex: 1;
+    /* background-color: bisque; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .img-container {
+    position: relative;
+  }
+
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 1;
+    border-radius: 2%;
+    height: 250px;
+    width: 250px;
+  }
+
+  .square-border {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 250px; /* Adjust square width as needed */
+    height: 250px; /* Adjust square height as needed */
+    border: 10px solid #4fb7dc; /* Border color and thickness */
+    border-radius: 2%;
+    z-index: 0;
+  }
+  .about-right-top {
+  }
+
+  .about-right-bottom {
+    margin-top: 20px;
+  }
+  .hire-me-contact {
+    border: 1px solid blue;
+    padding: 14px 18px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    background: linear-gradient(to right, #4e9fd7, #4a2ec0);
+  }
+
+  .resume-contact {
+    margin-left: 20px;
+
+    padding: 14px 18px;
+    border: none;
+    border-radius: 5px;
+    color: #4e9fd7;
+    font-size: 16px;
+    border: 2px solid #4e9fd7;
+  }
+  #about-me-title {
+    font-size: xx-large;
+    color: white;
+  }
+  #about-me-para {
+    font-size: large;
+    font-stretch: extra-expanded;
+    line-height: 1.5;
+    text-align: justify;
+    width: 100%;
+    color: white;
+    opacity: 0.9;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

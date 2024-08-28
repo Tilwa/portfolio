@@ -4,17 +4,19 @@ import aboutImg from "../../images/img.jpeg";
 const About = () => {
   return (
     <div className="about-container">
+      {/* left */}
       <div className="about-left">
         <div className="img-container">
           <img
             className="image"
             src={aboutImg}
-            height="250px"
+            // height="250px"
             alt="Example Image"
           />
           <div className="square-border"></div>
         </div>
       </div>
+      {/* right */}
       <div className="about-right">
         <div className="about-right-top">
           <h3 id="about-me-title">About Me</h3>
